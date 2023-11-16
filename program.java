@@ -12,12 +12,9 @@ public class program {
         tell.add("Vova", "89525121279");
         tell.add("Vova", "89525121279");
         tell.add("Vova", "89525121279");
-        //System.out.println(tell);
-        //System.out.println(tell.find("Vasya"));        
-        //System.out.println(tell.dell("Vova"));
-        //System.out.println(tell);
-        //tell.edit("Vasya", "89525122270", "89525122255");
-        //System.out.println(tell);
+        tell.find("Vasya");        
+        tell.dell("Vova");
+        tell.edit("Vasya", "89525122270", "89525122255");
         tell.print();
 
     }
